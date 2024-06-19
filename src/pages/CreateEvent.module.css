@@ -8,6 +8,11 @@
   width: 357px;
   height: 63px;
 }
+.home,
+.home1 {
+  position: absolute;
+  height: 39px;
+}
 .home {
   top: 0;
   left: calc(50% - 92px);
@@ -16,34 +21,36 @@
   box-sizing: border-box;
   width: 184px;
 }
-.backToEvent,
-.home,
-.home1 {
-  position: absolute;
-  height: 39px;
-}
 .home1 {
   top: calc(50% - 19.5px);
   left: calc(50% - 72px);
+  font-size: var(--font-size-3xl);
   display: flex;
+  font-family: var(--font-crimson-text);
+  color: var(--black);
+  text-align: center;
   align-items: center;
   justify-content: center;
   width: 144px;
 }
+.backToEvent,
+.eventName1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
 .backToEvent {
+  cursor: pointer;
+  padding: 0;
   top: 76px;
   left: calc(50% - 91.5px);
   width: 184px;
-  cursor: pointer;
-  font-size: var(--font-size-3xl);
+  height: 39px;
 }
 .eventName1 {
-  border: 0;
   outline: 0;
   font-family: var(--font-crimson-text);
   font-size: var(--font-size-10xl);
-  background-color: transparent;
-  position: absolute;
   top: calc(50% - 19.5px);
   left: calc(50% - 164px);
   color: var(--boulder);
@@ -185,7 +192,7 @@
 .toggle {
   position: absolute;
   top: 574px;
-  left: 290px;
+  left: calc(50% + 93.5px);
   border-radius: var(--br-9xl);
   background-color: var(--the-black);
   width: 69px;

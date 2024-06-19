@@ -140,18 +140,14 @@
   height: 97px;
 }
 .dontHaveAn,
-.signUpNow2 {
+.signUpNow1 {
   font-family: var(--font-crimson-text);
 }
 .dontHaveAn {
   margin: 0;
 }
-.signUpNow2 {
-  text-decoration: underline;
-  text-transform: uppercase;
-}
 .signUpNow1 {
-  color: inherit;
+  text-transform: uppercase;
 }
 .signUpNow {
   margin: 0;

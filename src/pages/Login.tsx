@@ -1,7 +1,14 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Login.module.css";
 
 const Login: FunctionComponent = () => {
+  const navigate = useNavigate();
+
+  const onDontHaveAnClick = useCallback(() => {
+    navigate("/sign-up");
+  }, [navigate]);
+
   return (
     <div className={styles.login}>
       <section className={styles.email}>
@@ -23,17 +30,14 @@ const Login: FunctionComponent = () => {
         <div className={styles.login1}>Login</div>
       </button>
       <b className={styles.login2}>Login</b>
-      <button className={styles.dontHaveAnContainer}>
+      <button
+        className={styles.dontHaveAnContainer}
+        onClick={onDontHaveAnClick}
+      >
         <span className={styles.dontHaveAnContainer1}>
           <p className={styles.dontHaveAn}>Don't have an account?</p>
           <p className={styles.signUpNow}>
-            <a
-              className={styles.signUpNow1}
-              href="http://127.0.0.1:5000/signup"
-              target="_blank"
-            >
-              <b className={styles.signUpNow2}>Sign up NOW</b>
-            </a>
+            <b className={styles.signUpNow1}>Sign up NOW</b>
           </p>
         </span>
       </button>

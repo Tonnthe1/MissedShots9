@@ -18,10 +18,6 @@ const MyEvents: FunctionComponent = () => {
     navigate("/");
   }, [navigate]);
 
-  const onEventClick = useCallback(() => {
-    navigate("/event");
-  }, [navigate]);
-
   return (
     <div className={styles.myEvents}>
       <div className={styles.topBar}>
@@ -39,502 +35,81 @@ const MyEvents: FunctionComponent = () => {
         <div className={styles.frame1} />
         <input className={styles.search} placeholder="Search..." type="text" />
       </div>
-      <nav className={styles.event16} onClick={onEventClick}>
-        <div className={styles.event16Child} />
+      <nav className={styles.event20}>
+        <div className={styles.event20Child} />
         <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
+          <div className={styles.wednesdayJune05}>
             Wednesday, June 05, 2024 01:13 AM
-          </a>
+          </div>
           <div className={styles.addressWrapper}>
             <div className={styles.address}>Address</div>
           </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
+          <div className={styles.sd}>sd</div>
           <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
+            <b className={styles.address}>Hanson</b>
           </div>
         </div>
       </nav>
-      <nav className={styles.event2}>
-        <div className={styles.event16Child} />
+      <nav className={styles.event21}>
+        <div className={styles.event20Child} />
         <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
+          <div className={styles.wednesdayJune05}>
             Wednesday, June 05, 2024 01:13 AM
-          </a>
+          </div>
           <div className={styles.addressWrapper}>
             <div className={styles.address}>Address</div>
           </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
+          <div className={styles.sd}>sd</div>
           <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
+            <b className={styles.address}>Hanson</b>
           </div>
         </div>
       </nav>
-      <div className={styles.event12}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </div>
       <div className={styles.event17}>
-        <div className={styles.event16Child} />
+        <div className={styles.event20Child} />
         <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
+          <div className={styles.wednesdayJune05}>
             Wednesday, June 05, 2024 01:13 AM
-          </a>
+          </div>
           <div className={styles.addressWrapper}>
             <div className={styles.address}>Address</div>
           </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
+          <div className={styles.sd}>sd</div>
           <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
+            <b className={styles.address}>Hanson</b>
           </div>
         </div>
       </div>
       <div className={styles.event18}>
-        <div className={styles.event16Child} />
+        <div className={styles.event20Child} />
         <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
+          <div className={styles.wednesdayJune05}>
             Wednesday, June 05, 2024 01:13 AM
-          </a>
+          </div>
           <div className={styles.addressWrapper}>
             <div className={styles.address}>Address</div>
           </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
+          <div className={styles.sd}>sd</div>
           <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className={styles.event13}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className={styles.event14}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
+            <b className={styles.address}>Hanson</b>
           </div>
         </div>
       </div>
       <div className={styles.event15}>
-        <div className={styles.event16Child} />
+        <div className={styles.event20Child} />
         <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
+          <div className={styles.wednesdayJune05}>
             Wednesday, June 05, 2024 01:13 AM
-          </a>
+          </div>
           <div className={styles.addressWrapper}>
             <div className={styles.address}>Address</div>
           </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
+          <div className={styles.sd}>sd</div>
           <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
+            <b className={styles.address}>Hanson</b>
           </div>
         </div>
       </div>
-      <nav className={styles.event5}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </nav>
-      <div className={styles.event6}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className={styles.event7}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className={styles.event8}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </div>
-      <nav className={styles.event9}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </nav>
-      <nav className={styles.event10}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </nav>
-      <nav className={styles.event11}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </nav>
-      <nav className={styles.event3}>
-        <div className={styles.event16Child} />
-        <div className={styles.container}>
-          <a
-            className={styles.wednesdayJune05}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            Wednesday, June 05, 2024 01:13 AM
-          </a>
-          <div className={styles.addressWrapper}>
-            <div className={styles.address}>Address</div>
-          </div>
-          <a
-            className={styles.sd}
-            href="http://127.0.0.1:5000/event/1"
-            target="_blank"
-          >
-            sd
-          </a>
-          <div className={styles.nameOfEvent}>
-            <a
-              className={styles.hanson}
-              href="http://127.0.0.1:5000/event/1"
-              target="_blank"
-            >
-              Hanson
-            </a>
-          </div>
-        </div>
-      </nav>
     </div>
   );
 };

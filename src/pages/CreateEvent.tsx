@@ -12,10 +12,10 @@ const CreateEvent: FunctionComponent = () => {
   return (
     <div className={styles.createEvent}>
       <b className={styles.createEvent1}>Create Event</b>
-      <div className={styles.backToEvent} onClick={onBackToEventClick}>
+      <button className={styles.backToEvent} onClick={onBackToEventClick}>
         <div className={styles.home} />
         <b className={styles.home1}>Back to Events</b>
-      </div>
+      </button>
       <div className={styles.eventName}>
         <input
           className={styles.eventName1}

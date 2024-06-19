@@ -48,7 +48,7 @@ const Event1: FunctionComponent = () => {
         <img
           className={styles.right2641Icon1}
           alt=""
-          src="/right-264-1@2x.png"
+          src="/right-264-11@2x.png"
         />
         <img className={styles.personItem} alt="" src="/ellipse-2@2x.png" />
         <div className={styles.metNameAt2}>Met #name at #time</div>

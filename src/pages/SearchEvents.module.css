@@ -68,7 +68,6 @@
   height: 91px;
   overflow-y: auto;
   flex-shrink: 0;
-  z-index: 0;
   text-align: center;
   font-size: var(--font-size-3xl);
   color: var(--black);
@@ -107,7 +106,6 @@
   position: relative;
   height: 64px;
   flex-shrink: 0;
-  z-index: 1;
 }
 .cantFindYour {
   cursor: pointer;
@@ -116,7 +114,6 @@
   background-color: transparent;
   position: relative;
   font-size: 21.5px;
-  text-decoration: underline;
   font-family: var(--font-crimson-text);
   color: var(--black);
   text-align: center;
@@ -129,7 +126,6 @@
   align-items: flex-start;
   justify-content: center;
   cursor: pointer;
-  z-index: 2;
 }
 .event1Child {
   width: 322px;
@@ -146,8 +142,6 @@
   position: absolute;
   top: 66.4px;
   left: 20px;
-  text-decoration: underline;
-  color: inherit;
 }
 .address {
   position: relative;
@@ -163,27 +157,19 @@
   padding: var(--padding-3xs);
   font-size: var(--font-size-base-4);
 }
-.hanson,
-.sd {
-  text-decoration: underline;
-  color: inherit;
-}
+.nameOfEvent,
 .sd {
   position: absolute;
-  top: 122.8px;
   left: 20px;
+}
+.sd {
+  top: 122.8px;
   font-size: 15.4px;
 }
-.hanson {
-  position: relative;
-  font-weight: 700;
-}
 .nameOfEvent {
-  position: absolute;
   width: calc(100% - 40px);
   top: 20px;
   right: 20px;
-  left: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -203,65 +189,35 @@
   z-index: 1;
 }
 .event1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  position: relative;
+  width: 329px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--nero);
+  height: 239px;
+  overflow: hidden;
+  flex-shrink: 0;
   cursor: pointer;
-  z-index: 3;
 }
 .event1,
 .event2,
-.event3 {
-  width: 329px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: var(--br-3xs);
-  background-color: var(--nero);
-  height: 239px;
-  overflow: hidden;
-  flex-shrink: 0;
+.searchEvents {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 .event2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  position: relative;
-  z-index: 4;
-}
-.event3 {
-  margin: 0 !important;
-  position: absolute;
-  top: 727px;
-  left: calc(50% - 167.5px);
-  z-index: 5;
-}
-.event3,
-.event31,
-.searchEvents {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-.event31 {
   width: 329px;
-  margin: 0 !important;
-  position: absolute;
-  top: 984px;
-  left: calc(50% - 167.5px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: var(--br-3xs);
   background-color: var(--nero);
   height: 239px;
   overflow: hidden;
   flex-shrink: 0;
-  z-index: 6;
 }
 .searchEvents {
   width: 100%;
-  position: relative;
   background-color: var(--rice-white);
   height: 852px;
   overflow-y: auto;

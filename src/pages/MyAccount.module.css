@@ -108,7 +108,7 @@
   background-color: transparent;
   position: absolute;
   top: 55px;
-  left: 105px;
+  left: calc(50% - 91.5px);
   width: 184px;
   height: 46px;
 }
@@ -224,18 +224,15 @@
 .linkedin9 {
   top: 714.5px;
 }
-.toggleIcon,
-.toggleIcon1 {
+.toggleIcon {
   position: absolute;
   top: 292px;
-  left: 305px;
+  left: calc(50% + 108.5px);
   border-radius: var(--br-9xl);
   width: 69px;
   height: 39px;
 }
-.toggleIcon1 {
-  top: 345px;
-}
+.toggleIcon1,
 .toggleIcon2,
 .toggleIcon3,
 .toggleIcon4,
@@ -244,11 +241,20 @@
 .toggleIcon7,
 .toggleIcon8 {
   position: absolute;
-  top: 398px;
-  left: 305px;
+  top: 345px;
+  left: calc(50% + 108.5px);
   border-radius: var(--br-9xl);
   width: 69px;
   height: 39px;
+}
+.toggleIcon2,
+.toggleIcon3,
+.toggleIcon4,
+.toggleIcon5,
+.toggleIcon6,
+.toggleIcon7,
+.toggleIcon8 {
+  top: 398px;
 }
 .toggleIcon3,
 .toggleIcon4,
